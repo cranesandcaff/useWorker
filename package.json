@@ -6,7 +6,6 @@
       "@changesets/cli": "^2.13.1"
   },
   "scripts": {
-      "preinstall": "npx only-allow pnpm",
       "changeset": "changeset",
       "ci:build": "pnpm run build -r",
       "ci:publish": "pnpm run build -r && changeset publish",
